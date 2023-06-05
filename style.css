@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #383838;
+  color: whitesmoke;
+  font-family: "Raleway", sans-serif;
+}
+
+.menubar {
+  position: fixed;
+  height: 100%;
+  padding-right: 4%;
+  background-color: black;
+  display: inline;
+  z-index: 1;
+}
+
+.slogo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: black;
+  top: 2%;
+  left: 1%;
+}
+
+.spotifyheading {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.registeredsymbol {
+  padding-bottom: 0.3cm;
+  font-size: small;
+}
+
+.slogo img {
+  width: 40px;
+  height: 40px;
+}
+
+.menubuttons {
+  position: relative;
+  top: 5%;
+  list-style-type: none;
+  padding-left: 2%;
+  display: inline;
+}
+
+.menubuttons>li {
+  position: relative;
+  top: 0px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.menubuttons>li>img {
+  height: 35px;
+  width: 35px;
+}
+
+.menutext {
+  font-size: 20px;
+  color: #b0b0b0;
+}
+
+.menutext:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.firstdivision {
+  position: fixed;
+  top: 0;
+  z-index: 0;
+  height: 12%;
+  width:100%;
+  background-color: #181818;
+}
+
+.logindetails {
+  position: relative;
+  height: 100%;
+  right: 1%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.button1 {
+  position: relative;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  height: 55px;
+  width: 125px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button1:hover {
+  font-size: 16px;
+  cursor:pointer;
+}
+
+.loginlink {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.loginlink:hover {
+  font-size:18px;
+  font-weight: bold;
+}
+
+.playsong {
+    height: 11%;
+    width: 100%;
+    background-color: #181818;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    position: fixed;
+    bottom: 0%;
+}
+
+#MyprogressBar {
+  top:10%;
+  width: 80vw;
+  cursor: pointer;
+  position: relative;
+}
+
+.playforback {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  top:15%;
+}
+
+.playforback i {
+  cursor: pointer;
+}
+
+.songinfo {
+    position: relative;
+    right:34%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    bottom:7%;
+}
+
+.songinfo img{
+  height:35px;
+  width:50px;
+}
+
+.songcontainer {
+  position: absolute;
+  top:13.5%;
+  left:17%;
+}
+
+.songlist {
+  display: flex;
+  position:relative;
+}
+
+.songitem {
+  padding-right: 30px;
+  position:relative;
+}
+
+.songitem img {
+  height: 200px;
+  width: 200px;
+  position:relative;
+}
+
+i{
+  cursor:pointer;
+}
+
+.songlist2 {
+  display: flex;
+  position:relative;
+}
